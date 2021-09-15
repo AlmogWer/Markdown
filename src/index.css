@@ -192,3 +192,19 @@ pre {
   color: yellow;
   margin-bottom: 1.5rem;
 }
+
+.result {
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 1rem;
+}
+
+textarea::-webkit-scrollbar {
+  width: 12px;
+  background-color: #ffecd2;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #fcb69f;
+}
